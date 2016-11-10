@@ -3,3 +3,9 @@
 ################################################################################
 
 /WebAPI/.vs
+/WebAPI/src/WebAPI/bin/Debug/netcoreapp1.0
+/WebAPI/src/WebAPI/app/app
+/WebAPI/src/WebAPI/app/node_modules/@angular
+/WebAPI/src/WebAPI/dist
+/WebAPI/src/WebAPI/node_modules
+/WebAPI/src/WebAPI/wwwroot/scripts
