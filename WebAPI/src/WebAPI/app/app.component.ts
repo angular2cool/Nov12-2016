@@ -7,9 +7,17 @@ import { DataService } from './services/data.service';
     templateUrl: 'app.template.html'
 })
 export class AppComponent {
+    salesData: SalesData[];
     constructor(dataService: DataService) {
+        this.salesData = new Array<SalesData>();
         dataService.getDataObservable('/api/ProductSales/ForSku/AMM-223').subscribe(x => {
-            console.log('just got: ' + x);
+            let d = JSON.parse(JSON.stringify(x));
+            this.salesData.push(new SalesData(d.date, d.revenue, d.unitSales));
+            console.log(this.salesData);
         });
     }
+}
+
+class SalesData {
+    constructor(public date: Date, public revenue: number, public unitSales: number) { }
 }
