@@ -1,3 +1,7 @@
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\services\rxjs-operators.js
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\services\rxjs-operators.js.map
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\services\data.service.js
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\services\data.service.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app.component.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app.component.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app.module.js
@@ -26,5 +30,7 @@ C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_template_outlet.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\core\src\application_module.ngfactory.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\core\src\application_module.ngfactory.js.map
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\http\src\http_module.ngfactory.js
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\http\src\http_module.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\platform-browser\src\browser.ngfactory.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\platform-browser\src\browser.ngfactory.js.map
