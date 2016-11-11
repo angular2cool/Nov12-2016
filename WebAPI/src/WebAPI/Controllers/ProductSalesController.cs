@@ -39,7 +39,7 @@ namespace WebAPI.Controllers
 
         [HttpPut]
         [Route("ForSku/{sku}")]
-        public JsonResult PutAlertForUser(string email, [FromBody] object body)
+        public JsonResult PutForSku(string sku, [FromBody] object body)
         {
             JObject b = (JObject)body;
             var date = b.GetValue("date").ToString();
