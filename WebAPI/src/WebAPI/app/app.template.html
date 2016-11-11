@@ -1,1 +1,14 @@
-﻿Hello Angular world!
+﻿<table>
+    <thead style="font-size:larger; text-decoration:underline;">
+        <tr>
+            <td>Date</td>
+            <td>Revenue</td>
+            <td>Unit Sales</td>
+        </tr>
+    </thead>
+    <tr *ngFor="let d of salesData">
+        <td>{{d.date}}</td>
+        <td>${{d.revenue}}</td>
+        <td>{{d.unitSales}}</td>
+    </tr>
+</table>

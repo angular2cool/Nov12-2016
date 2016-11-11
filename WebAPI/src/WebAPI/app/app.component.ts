@@ -10,10 +10,10 @@ export class AppComponent {
     salesData: SalesData[];
     constructor(dataService: DataService) {
         this.salesData = new Array<SalesData>();
-        dataService.getDataObservable('/api/ProductSales/ForSku/AMM-223').subscribe(x => {
-            let d = JSON.parse(JSON.stringify(x));
-            this.salesData.push(new SalesData(d.date, d.revenue, d.unitSales));
-            console.log(this.salesData);
+        dataService.getDataObservable('/api/ProductSales/ForSku/AMM-223').subscribe(data => {
+            for (let dataPoint of data) {
+                this.salesData.push(new SalesData(dataPoint['date'], dataPoint['revenue'], dataPoint['unitSales']));
+            }
         });
     }
 }

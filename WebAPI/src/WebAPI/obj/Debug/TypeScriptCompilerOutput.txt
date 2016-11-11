@@ -6,6 +6,8 @@ C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app.component.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app.module.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app.module.js.map
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_for.ngfactory.js
+C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_for.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app\app.component.ngfactory.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app\app.component.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\app\app.module.ngfactory.js
@@ -16,8 +18,6 @@ C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\common_module.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_class.ngfactory.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_class.ngfactory.js.map
-C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_for.ngfactory.js
-C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_for.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_if.ngfactory.js
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_if.ngfactory.js.map
 C:\Users\ltenny\Documents\GitHub\Angular Blog\Nov12-2016\WebAPI\src\WebAPI\dist\app\node_modules\@angular\common\src\directives\ng_plural.ngfactory.js

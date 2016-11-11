@@ -4,6 +4,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using WebAPI.Models;
+using Newtonsoft.Json.Linq;
+using Newtonsoft.Json;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -29,10 +31,22 @@ namespace WebAPI.Controllers
                 for(int d = 1; d < 30; d++)
                 {
                     var s = rnd.Next() % 500;
-                    retval.Add(new Models.Sales(new DateTime(2016, m, d), s * price, s));
+                    retval.Add(new Sales(new DateTime(2016, m, d).ToString("yyyy-MM-dd"), s * price, s));
                 }
             }
             return retval;
         }
+
+        [HttpPut]
+        [Route("ForSku/{sku}")]
+        public JsonResult PutAlertForUser(string email, [FromBody] object body)
+        {
+            JObject b = (JObject)body;
+            var date = b.GetValue("date").ToString();
+            var revenue = b.GetValue("revenue").ToString();
+            var unitSales = b.GetValue("unitSales").ToString();
+            return Json("OK");
+        }
+
     }
 }
